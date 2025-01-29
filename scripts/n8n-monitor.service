@@ -1,0 +1,13 @@
+[Unit]
+Description=N8N Monitor Service
+After=docker.service
+Requires=docker.service
+
+[Service]
+Type=simple
+ExecStart=/path/to/scripts/monitor.sh
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target 

@@ -1,0 +1,40 @@
+# Environment variables
+.env
+
+# SSL certificates
+ssl/
+*.pem
+*.key
+*.crt
+
+# Backup files
+backup/
+*.gz
+*.tar
+*.zip
+
+# Traefik dynamic config
+traefik/acme.json
+
+# Logs
+*.log
+logs/
+
+# Node modules (if any local development)
+node_modules/
+
+# Docker volumes
+data/
+postgres_data/
+redis_data/
+n8n_data/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo 
