@@ -42,8 +42,8 @@ This repository contains a production-ready setup for N8N workflow automation pl
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/n8n-production
-cd n8n-production
+git clone https://github.com/kanthikiran1988/N8N-Docker.git
+cd N8N-Docker
 ```
 
 2. Copy the example environment file and modify it:
@@ -239,7 +239,7 @@ If you encounter any issues or need support:
 
 ## Author
 
-Your Name - [@yourgithubhandle](https://github.com/yourgithubhandle)
+Kanthikiran - [@kanthikiran1988](https://github.com/kanthikiran1988)
 
 ## Version History
 
