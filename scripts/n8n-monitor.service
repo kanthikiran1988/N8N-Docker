@@ -5,7 +5,9 @@ Requires=docker.service
 
 [Service]
 Type=simple
-ExecStart=/path/to/scripts/monitor.sh
+ExecStart=/usr/local/bin/n8n-monitor.sh
+EnvironmentFile=/etc/n8n/.env
+WorkingDirectory=/etc/n8n
 Restart=always
 User=root
 

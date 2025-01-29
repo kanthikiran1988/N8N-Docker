@@ -1,8 +1,9 @@
 #!/bin/bash
 
-# Configuration
-SLACK_WEBHOOK_URL="your-slack-webhook-url"
-DISCORD_WEBHOOK_URL="your-discord-webhook-url"
+# Load environment variables
+if [ -f .env ]; then
+    export $(cat .env | grep -v '#' | awk '/=/ {print $1}')
+fi
 
 # Function to send notifications
 send_notification() {
